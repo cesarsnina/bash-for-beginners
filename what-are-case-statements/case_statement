@@ -15,4 +15,18 @@ case $n in
     *) 
         echo "Other";;
 esac
-    
+
+
+read -p "Enter a value: " s
+case $s in
+    1|2) 
+        echo "Number One or Two";;
+    [3-9]) 
+        echo "Number 3 through 9";;
+    ??) 
+        echo "Two characters";;
+    *.js) 
+        echo "*.js";;
+    *) 
+        echo "Other";;
+esac
