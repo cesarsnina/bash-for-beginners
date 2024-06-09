@@ -3,3 +3,17 @@
 # Welcome to your first Bash Script
 
 echo 'Hello World!'
+
+# do not separate with a space
+greet='Hey'
+
+# use underscore to separate words
+my_location=$(pwd)
+
+# const variable
+readonly myName=$(whoami)
+# myName='Tom'
+
+# must be double quotes when combining types
+echo "$greet $myName, from $my_location"
+
